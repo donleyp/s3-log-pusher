@@ -1,0 +1,37 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.0",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-west-2",
+            "eventTime": "2015-07-02T08:36:27.588Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A2HRK4T7OWQKNJ"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "10.234.97.11"
+            },
+            "responseElements": {
+                "x-amz-request-id": "2BE2519C43545495",
+                "x-amz-id-2": "jBxedZasAAXjHiaB2T4ApgaPta+9FJeFZqkvfvx/l5hjs1EI1thaQVU52yjfOAB3"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "ZjQyOWNlYTUtYWE4Mi00MGIyLThmMWUtMzUzYTM3MWVmNzg3",
+                "bucket": {
+                    "name": "donleyp-logs",
+                    "ownerIdentity": {
+                        "principalId": "AR6LRAOIV7A53"
+                    },
+                    "arn": "arn:aws:s3:::donleyp-logs"
+                },
+                "object": {
+                    "key": "logs/2015-07-02-08-36-27-FDFD8803FFA541AA",
+                    "size": 627,
+                    "eTag": "1750439bec3130bd960167c24652a985"
+                }
+            }
+        }
+    ]
+}
